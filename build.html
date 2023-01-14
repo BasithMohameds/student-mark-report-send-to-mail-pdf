@@ -1,0 +1,419 @@
+<style>
+            body{
+               padding:30px;
+             }
+             .rangeinput{
+               border: 1px solid #333;
+               height: 16px;
+               width: 350px;
+               background-color:darkgray;
+               display: flex;
+             }
+            .score{
+               margin-left:58%;
+               margin-top: -20px;
+               position: absolute;
+             } 
+             .average{
+                margin-left:72%;
+                margin-top:-20px;
+                position: absolute;
+              }
+              .checking{
+                margin-left:85%;
+                margin-top:-20px;
+                position: absolute;
+              }
+             .nameid{
+                margin-top: 2rem;
+                float: right;
+              }
+              .motive{
+                font-size: 20px;
+                font-weight: 600;
+              }
+              .Title{
+                font-size: 28px;
+                font-weight: 600;
+                margin-top:-15px;
+              }
+              .divtag{
+                text-align: center;
+                width:100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top:-150px;
+              }
+              .details{
+                margin-top:-30px;
+              }
+              .topdiv{
+                margin-top:2rem;
+              }
+              .digiimg{
+                margin-top: 15px;
+              }
+              .xfont{
+                height: auto;
+                width:23rem;
+                background-color: e5e7e9;
+                font-size: 50px;
+                margin-top: -11px;
+              }
+              .paragraph{
+                margin-top:5px;
+              }
+              .myscore{
+                margin-left:48%;
+                margin-top:15px;
+              } 
+              .myaverage{
+                margin-left:4%;
+                margin-top:15px;
+              }
+              .mygrade{
+                margin-left:3.5%;
+                margin-top:15px;
+              }
+              .hrtag{
+                margin-top:20px;
+              }
+              .maincontent{
+                height:20px;
+              }
+              .detail{
+                margin-top:-20px;
+              }
+              .onex{
+                font-size: 50px;
+              }
+              .xcontent1{
+                font-size:15px;
+              }
+              .xcontent2{
+                font-size:15px;
+              }
+              .justify-even{
+                display: flex;
+                justify-content: space-evenly;
+              }
+              .scoreimg{
+                height: 20px;
+                float: left;
+                margin-top: 3px;
+              }
+              .content1{
+                position: absolute;
+                margin-left:25px;
+                font-size:10px;
+              }
+              .averageimg{
+                height: 20px;
+               margin-left:60px;
+               margin-top:4px;
+              }
+              .content2{
+                margin-top: -15px;
+                margin-left: 110px;
+                font-size: 10px;
+              }
+              .rangeimg{
+                height: 20px;
+                margin-left: 210px;
+                margin-top: -26px;
+              }
+              .content3{
+                margin-top: -21px;
+                margin-left: 240px;
+                font-size: 10px;
+              }
+              .wellimg{
+                height: 20px;
+                margin-left: 320px;
+                margin-top: -26px;
+              }
+              .content4{
+                margin-top: -21px;
+                margin-left: 350px;
+                font-size: 10px;
+              }
+              .reviewimg{
+                height: 20px;
+                margin-left: 435px;
+                margin-top: -29px;
+              }
+              .content5{
+                margin-top: -23px;
+                margin-left: 460px;
+                font-size: 10px;
+              }
+              .improveimg{
+                height: 20px;
+                margin-left: 550px;
+                margin-top: -29px;
+              }
+              .content6{
+                margin-top: -23px;
+                margin-left: 574px;
+                font-size: 10px;
+              }
+              .start{
+                margin-top:-5px;
+              }
+             </style>
+             <div class="topdiv">
+             <img src="http://127.0.0.1:5500/digilogo.png" class="digiimg"><p class="nameid"> BASITH MOHAMED  200971 </p> 
+             </div><br><br>
+             <div class="divtag"><p class="motive">Strengths and Improvement Opportunities</p>
+             <p class="Title">GIT 113 MCQ 122302021</p>
+             <p class="details">Course:Gastrointestinal Block  
+             Instructor: Dr. Peter  Kvietys
+             12/23/2021Questions:81</p>
+             <p class="detail">StdDev = &nbsp;15.51 Mean = &nbsp; 52.95
+             Median = &nbsp; 55Rank = &nbsp; 13/408</p>
+             <div class="xfont"><div class="justify-even"><span class="onex">X</span><span class="twox">X</span></div>
+             <div class="justify-even"><span class="xcontent1">My Score</span><span class="xcontent2">Average </span></div></div>
+             <p class="paragraph">Overall, you scored above the class average. Please take note of the areas,<br>
+             noted in green or red, where you may have opportunities for improvement.</p></div>
+             <div class="maincontent"><img src="http://127.0.0.1:5500/star.png" class="scoreimg"><p class="content1">MY SCORE</p>
+             <img src="http://127.0.0.1:5500/diamond1.png" class="averageimg"><p class="content2">AVERAGE/MEAN</p>
+             <img src="http://127.0.0.1:5500/range.png" class="rangeimg"><p class="content3">SCORE RANGE</p>
+             <img src="http://127.0.0.1:5500/yellowstar.png" class="wellimg"><p class="content4">DOING WELL</p>
+             <img src="http://127.0.0.1:5500/greenbox.png" class="reviewimg"><p class="content5">NEEDS REVIEW</p>
+             <img src="http://127.0.0.1:5500/improve.webp" class="improveimg"><p class="content6">IMPROVEMENT</p></div><br>
+             <span>CATEGORY</span> <span class="myscore">MY SCORE</span><span class="myaverage">AVERAGE</span>
+             <span class="mygrade">GRADE</span><hr><p class="key"> 01 - Recall </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:275.2px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">80%</span>
+    <span class="average">80%</span><span class="checking"><img src="http://127.0.0.1:5500/yellowstar.png" height="14"></img></span><hr class="hrtag"><p class="key"> 02 - Critical Thinking & Application </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:240.79999999999998px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">70%</span>
+    <span class="average">70%</span><span class="checking"><img src="http://127.0.0.1:5500/greenbox.png" height="14"></img></span><hr class="hrtag"><p class="key"> a. Histology </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:344px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">100%</span>
+    <span class="average">100%</span><span class="checking"><img src="http://127.0.0.1:5500/yellowstar.png" height="14"></img></span><hr class="hrtag"><p class="key"> b. Embryology </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:312.7304px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">90.91%</span>
+    <span class="average">90.91%</span><span class="checking"><img src="http://127.0.0.1:5500/yellowstar.png" height="14"></img></span><hr class="hrtag"><p class="key"> anatomical knowledge in common GIT related diseases </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:344px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">100%</span>
+    <span class="average">100%</span><span class="checking"><img src="http://127.0.0.1:5500/yellowstar.png" height="14"></img></span><hr class="hrtag"><p class="key"> abdominal wall and the development of hernia and inguinal canal </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:258px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">75%</span>
+    <span class="average">75%</span><span class="checking"><img src="http://127.0.0.1:5500/greenbox.png" height="14"></img></span><hr class="hrtag"><p class="key"> anatomical features of Liver and extra biliary apparatus </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:344px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">100%</span>
+    <span class="average">100%</span><span class="checking"><img src="http://127.0.0.1:5500/yellowstar.png" height="14"></img></span><hr class="hrtag"><p class="key"> anatomical features of oesophagus and stomach </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:309.6px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">90%</span>
+    <span class="average">90%</span><span class="checking"><img src="http://127.0.0.1:5500/yellowstar.png" height="14"></img></span><hr class="hrtag"><p class="key"> midgut and hindgut </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:275.2px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">80%</span>
+    <span class="average">80%</span><span class="checking"><img src="http://127.0.0.1:5500/yellowstar.png" height="14"></img></span><hr class="hrtag"><p class="key"> Describe the histology of large intestine </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:240.79999999999998px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">70%</span>
+    <span class="average">70%</span><span class="checking"><img src="http://127.0.0.1:5500/greenbox.png" height="14"></img></span><hr class="hrtag"><p class="key"> Describe the histology of liver and biliary apparatus </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:206.4px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">60%</span>
+    <span class="average">60%</span><span class="checking"><img src="http://127.0.0.1:5500/greenbox.png" height="14"></img></span><hr class="hrtag"><p class="key"> peritoneum, divisions of peritoneal cavity and peritoneal </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:268.32px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">78%</span>
+    <span class="average">78%</span><span class="checking"><img src="http://127.0.0.1:5500/greenbox.png" height="14"></img></span><hr class="hrtag"><p class="key"> Describe the vascular supply and lymphatic drainage of GIT </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:309.6px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">90%</span>
+    <span class="average">90%</span><span class="checking"><img src="http://127.0.0.1:5500/yellowstar.png" height="14"></img></span><hr class="hrtag"><p class="key"> associated with the development of Gastrointestinal tract </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:258px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">75%</span>
+    <span class="average">75%</span><span class="checking"><img src="http://127.0.0.1:5500/greenbox.png" height="14"></img></span><hr class="hrtag"><p class="key"> intestine & pancreas </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:344px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">100%</span>
+    <span class="average">100%</span><span class="checking"><img src="http://127.0.0.1:5500/yellowstar.png" height="14"></img></span><hr class="hrtag"><p class="key"> Discuss the histology of tongue and oral mucosa </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:271.76px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">79%</span>
+    <span class="average">79%</span><span class="checking"><img src="http://127.0.0.1:5500/greenbox.png" height="14"></img></span><hr class="hrtag"><p class="key"> Explain the histological features of salivary glands </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:275.2px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">80%</span>
+    <span class="average">80%</span><span class="checking"><img src="http://127.0.0.1:5500/yellowstar.png" height="14"></img></span><hr class="hrtag"><p class="key"> Explain the histology of the esophagus and stomach </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:240.79999999999998px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">70%</span>
+    <span class="average">70%</span><span class="checking"><img src="http://127.0.0.1:5500/greenbox.png" height="14"></img></span><hr class="hrtag"><p class="key"> Gastric accommodation, mixing, and emptying of ingested food </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:261.44px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">76%</span>
+    <span class="average">76%</span><span class="checking"><img src="http://127.0.0.1:5500/greenbox.png" height="14"></img></span><hr class="hrtag"><p class="key"> Gastric acid secretion: its regulation & function </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:151.35999999999999px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">44%</span>
+    <span class="average">44%</span><span class="checking"><img src="http://127.0.0.1:5500/improve.webp" height="14"></img></span><hr class="hrtag"><p class="key"> Gastric mucosal defense against injury </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:340.56px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">99%</span>
+    <span class="average">99%</span><span class="checking"><img src="http://127.0.0.1:5500/yellowstar.png" height="14"></img></span><hr class="hrtag"><p class="key"> Hepatic metabolism and excretion of bilirubin </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:258px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">75%</span>
+    <span class="average">75%</span><span class="checking"><img src="http://127.0.0.1:5500/greenbox.png" height="14"></img></span><hr class="hrtag"><p class="key"> Intestinal digestion and absorption of carbohydrates, proteins, & lipids </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:172px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">50%</span>
+    <span class="average">50%</span><span class="checking"><img src="http://127.0.0.1:5500/improve.webp" height="14"></img></span><hr class="hrtag"><p class="key"> Intestinal motility: delivery of chyme to the colon </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:271.76px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">79%</span>
+    <span class="average">79%</span><span class="checking"><img src="http://127.0.0.1:5500/greenbox.png" height="14"></img></span><hr class="hrtag"><p class="key"> Malabsorption and Diarrhea </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:230.48px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">67%</span>
+    <span class="average">67%</span><span class="checking"><img src="http://127.0.0.1:5500/greenbox.png" height="14"></img></span><hr class="hrtag"><p class="key"> Mastication and swallowing of food: role of salivary gland secretions </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:237.35999999999999px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">69%</span>
+    <span class="average">69%</span><span class="checking"><img src="http://127.0.0.1:5500/greenbox.png" height="14"></img></span><hr class="hrtag"><p class="key"> function by enteroendocrine system: humoral, paracrine, & neurocrine </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:240.79999999999998px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">70%</span>
+    <span class="average">70%</span><span class="checking"><img src="http://127.0.0.1:5500/greenbox.png" height="14"></img></span><hr class="hrtag"><p class="key"> Regulation of pancreatic secretion of bicarbonate and enzymes </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:309.6px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">90%</span>
+    <span class="average">90%</span><span class="checking"><img src="http://127.0.0.1:5500/yellowstar.png" height="14"></img></span><hr class="hrtag"><p class="key"> Regulation of pancreatic </p>
+  <div class="rangeinput">
+  <div class="conainer"> 
+    <img src="http://127.0.0.1:5500/star.png" width="12px" style="margin-top :15px; margin-left:120.39999999999999px;"></div>
+    <p style="margin: 0%;position:absolute;">0</p>
+    <p style="margin:170px;margin-top:-1px;position:absolute;">50</p>
+    <p style="margin: 325px;margin-top:0px;position:absolute;">100</p></div>
+    <span class="score">35%</span>
+    <span class="average">35%</span><span class="checking"><img src="http://127.0.0.1:5500/improve.webp" height="14"></img></span><hr class="hrtag">
